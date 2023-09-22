@@ -212,6 +212,8 @@ if __name__ == "__main__":
         1737400.0, "moon_gnom", "SPole", pbar, meters_per_pixel=30, nodata_val=int16_nodata)
     Gnomonic_Warp([path.join("Moon","Local","SouthPole","MOON_LRO_NAC_DEM_89S210E_4mp.tif")], \
         1737400.0, "moon_gnom", "SPole", pbar, meters_per_pixel=4, nodata_val=float_nodata)
+    Gnomonic_Warp([path.join("Moon","Local","SouthPole","PLACEHOLDER_NASA_20CM.tif")], \
+        1737400.0, "moon_gnom", "SPole", pbar, meters_per_pixel=0.2, nodata_val=float_nodata)
     # Moon South Pole Overlay Data
     # Pending Data_Downloader links to these
     # Gnomonic_Warp(path.join("Moon","Local","SouthPole","SP_IceFavorabilityIndex.tif"), \
